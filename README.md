@@ -70,6 +70,13 @@
 - **Cracking successful, password for *deathstart* is *readytograduate* SSH to this user ssh deathstart@192,168.44.132 and type the password readytograduate when prompted**
 
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-38-42.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-39-04.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-39-20.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-39-44.png?raw=true)
+
+## At this point we have fully compromised the machine and gain control of the system.
+
+
 
 
 
