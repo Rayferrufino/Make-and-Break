@@ -55,7 +55,7 @@
 
 - **We tried to spawn our shell but we were unsuccessful. In addition we can't change directories even though we are "root" but fortunately we can cat files and list directories including the /etc/shadow! file that contains the hashed passwords**
 
-- **We copied the content of the shadow file and passwd file into a shadows.txt and passwd.txt file and we procced to crack the hash using John the Ripper
+- **We copied the content of the shadow file and passwd file into a shadows.txt and passwd.txt file and we procced to crack the hash using John the Ripper**
 
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-35-09.png?raw=true)
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-37-50.png?raw=true)
