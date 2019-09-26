@@ -14,7 +14,7 @@
 ### Installing SSH server
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2014-10-14.png?raw=true)
 
-### install Webmin 1.890
+### Install Webmin 1.890
 - **Create a username (deathstart) and password (readytograduate) serving on port 10000 by default**
 - **Download webmin-1.890.tar.gz from https://sourceforge.net/projects/webadmin/files/webmin/**
 - **Extracting the file and running the following commands within the extracted Webmin folder**
@@ -25,3 +25,12 @@
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2010-29-16.png?raw=true)
 ![](https://www.hostwinds.com/guide//wp-content/uploads/2017/03/IMG_Usermin_Login_Page.png)
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2010-29-46.png?raw=true)
+
+### Kali 
+- **Recon steps: Kali VM and Ubuntu VM are on the same subnet**
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/wte.png?raw=true)
+
+- **In Kali do an nmap scan for the Ubuntu machine, check for open ports and services**
+- **Notice that port 10000 is open (a web server) and port 22. We will try to exploit port 10000, an http web server (miniServ 1.890) by using a known flaw, which let us connect remotely to it**
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-09-27.png?raw=true)
+
