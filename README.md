@@ -64,9 +64,12 @@
 - **Type unshadow passwd.txt shadow.txt > password.txt  in order to combine both files and use John**
 - **We already created our own password list (fullstack.txt) with common passwords, which we will use with John in order to obtain the password**
 - **Type john --wordlist=fullstack.txt password.txt in order to crack and reveal the password**
+
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-40-27.png?raw=true)
 
+- **Cracking successful, password for *deathstart* is *readytograduate* SSH to this user ssh deathstart@192,168.44.132 and type the password readytograduate when prompted**
 
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-38-42.png?raw=true)
 
 
 
