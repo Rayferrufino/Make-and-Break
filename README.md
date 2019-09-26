@@ -74,7 +74,7 @@
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-39-20.png?raw=true)
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-39-44.png?raw=true)
 
-## At this point we have fully compromised the machine and gain control of the system.
+## At this point we have fully compromised the machine and gained control of the system.
 
 
 
