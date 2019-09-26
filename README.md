@@ -33,4 +33,5 @@
 - **In Kali do an nmap scan for the Ubuntu machine, check for open ports and services**
 - **Notice that port 10000 is open (a web server) and port 22. We will try to exploit port 10000, an http web server (miniServ 1.890) by using a known flaw, which let us connect remotely to it**
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-09-27.png?raw=true)
-
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-19-07.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-19-39.png?raw=true)
