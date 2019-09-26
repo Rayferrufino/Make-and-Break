@@ -13,3 +13,12 @@
 
 ### Installing SSH server
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2014-10-14.png?raw=true)
+
+### install Webmin 1.890
+- **Create a username (deathstart) and password (readytograduate) serving on port 10000 by default**
+- **Download webmin-1.890.tar.gz from https://sourceforge.net/projects/webadmin/files/webmin/**
+- **Extracting the file and running the following commands within the extracted Webmin folder**
+- **<sudo ./setup.sh /usr/local/webmin>**
+- **Enter password for user deathstart when prompted**
+
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2010-29-05.png?raw=true)
