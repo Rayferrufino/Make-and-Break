@@ -22,3 +22,5 @@
 - **Enter password for user deathstart when prompted**
 
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2010-29-05.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2010-29-16.png?raw=true)
+![](https://www.hostwinds.com/guide//wp-content/uploads/2017/03/IMG_Usermin_Login_Page.png)
