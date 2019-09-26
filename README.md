@@ -28,10 +28,48 @@
 
 ### Kali 
 - **Recon steps: Kali VM and Ubuntu VM are on the same subnet**
+
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/wte.png?raw=true)
 
 - **In Kali do an nmap scan for the Ubuntu machine, check for open ports and services**
 - **Notice that port 10000 is open (a web server) and port 22. We will try to exploit port 10000, an http web server (miniServ 1.890) by using a known flaw, which let us connect remotely to it**
+
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-09-27.png?raw=true)
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-19-07.png?raw=true)
 ![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-19%2015-19-39.png?raw=true)
+
+- **We use exploit 2019-15107 Unauthenticated Remote Code Execution in Metasploit to get root access.**
+- **Open msfconsole on Kali, search for webmin, and use exploit unix/webapp/webmin_backdoor**
+
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2013-05-14.png?raw=true)
+
+- **Set options accordingly - RHOST, LHOST**
+
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2013-05-29.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2013-05-43.png?raw=true)
+
+
+- **Run the exploit and get a shell**
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2013-06-04.png?raw=true)
+
+
+- **We tried to spawn our shell but we were unsuccessful. In addition we can't change directories even though we are "root" but fortunately we can cat files and list directories including the /etc/shadow! file that contains the hashed passwords**
+
+- **We copied the content of the shadow file and passwd file into a shadows.txt and passwd.txt file and we procced to crack the hash using John the Ripper
+
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-35-09.png?raw=true)
+![](https://github.com/Rayferrufino/Make-and-Break/blob/master/Screenshots/Screenshot%20from%202019-09-17%2016-37-50.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
